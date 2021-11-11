@@ -25,7 +25,7 @@ public:
     double pointset_radius; // Rm
     int number;             // number
     friend quanta;
-    pointset();             // initialize and add the
+    pointset();             // initialize and add the points
     ~pointset() = default;
     Status PrintPoint();    // print each point
     Status addQuanta(quanta *q);
